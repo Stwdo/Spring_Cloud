@@ -1,8 +1,9 @@
-package com.example.users.controller;
+package com.example.userpackage.controller;
 
 
-import com.example.users.domain.User;
-import com.example.users.mapper.UserMapper;
+
+import com.example.userpackage.domain.User;
+import com.example.userpackage.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,7 +17,7 @@ public class UserController {
 
    @RequestMapping("/users")
     public List<User> user(){
-      System.out.println("user1");
+      System.out.println("user2");
        return userMapper.findAll();
    }
 

@@ -10,7 +10,9 @@
         <module name="openfeign" />
         <module name="Spring_Cloud" />
         <module name="eureka-server" />
+        <module name="server-config" />
         <module name="users" />
+        <module name="user-package" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +20,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
       <module name="openfeign" options="-parameters" />
+      <module name="server-config" options="-parameters" />
+      <module name="user-package" options="-parameters" />
       <module name="users" options="-parameters" />
     </option>
   </component>
